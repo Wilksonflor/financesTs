@@ -8,23 +8,17 @@ Este é um sistema de gerenciamento financeiro que permite aos usuários control
 
 ## Recursos
 
-• Adição de Transações: Permite adicionar novas transações financeiras, incluindo data, categoria, título e valor.
-
-• Visualização de Transações: Exibe uma tabela com todas as transações cadastradas, organizadas por data e categoria.
-
-• Categorias Personalizadas: Suporte para diferentes categorias de receitas e despesas, com cores distintas para fácil identificação.
-
-• Filtragem por Mês: Visualize as transações de um mês específico e obtenha uma visão detalhada das receitas e despesas.
-
-• Modal para Adição de Dados: Interface de usuário amigável para adicionar novas transações em um modal responsivo.
+- `Adição de Transações:` Permite adicionar novas transações financeiras, incluindo data, categoria, título e valor.
+- `Visualização de Transações:` Exibe uma tabela com todas as transações cadastradas, organizadas por data e categoria.
+- `Categorias Personalizadas:` Suporte para diferentes categorias de receitas e despesas, com cores distintas para fácil identificação.
+- `Filtragem por Mês:` Visualize as transações de um mês específico e obtenha uma visão detalhada das receitas e despesas.
+- `Modal para Adição de Dados:` Interface de usuário amigável para adicionar novas transações em um modal responsivo.
 
 # Tecnologias Utilizadas
 
-• Frontend: React, Styled-Components
-
-• Backend: Não aplicável ainda (aplicação frontend única)
-
-• Data Storage: Dados armazenados localmente no navegador (para demonstração e desenvolvimento
+- `Frontend:` React, Styled-Components
+- `Backend:` Não aplicável ainda (aplicação frontend única)
+- `Data Storage:` Dados armazenados localmente no navegador (para demonstração e desenvolvimento
 
 ## Instalação e Execução
 
@@ -69,12 +63,12 @@ src/
 │   ├── ResumeItem/
 │   ├── TableArea/
 │   ├── TableItem/
-│   
+│
 │
 ├── data/
 │   ├── categories.ts
 │   ├── items.ts
-│   
+│
 │
 ├── helpers/
 │   └── dateFilter.ts
@@ -89,6 +83,7 @@ src/
 ├── main.tsx
 └── ...
 ```
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, siga os seguintes passos:
@@ -118,6 +113,5 @@ git push origin minha-nova-feature
 
 Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-• Nome: Wilkson Flor
-
-• Email: wilksonflor12@gmail.com
+- ``Nome:`` Wilkson Flor
+- ``Email:`` wilksonflor12@gmail.com
