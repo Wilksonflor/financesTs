@@ -60,6 +60,35 @@ A aplicação está disponível em `http://localhost:5173/`
 
 ### Estrutura do projeto
 
+```plaintext
+src/
+│
+├── components/
+│   ├── InfoArea/
+│   ├── InputArea/
+│   ├── ResumeItem/
+│   ├── TableArea/
+│   ├── TableItem/
+│   
+│
+├── data/
+│   ├── categories.ts
+│   ├── items.ts
+│   
+│
+├── helpers/
+│   └── dateFilter.ts
+|
+├── Types/
+│   ├── Category.ts
+│   ├── Item.ts
+|
+|
+|
+├── App.tsx
+├── main.tsx
+└── ...
+```
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, siga os seguintes passos:
