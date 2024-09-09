@@ -14,8 +14,23 @@ export const HeaderText = styled.h1`
 `;
 
 export const Body = styled.div`
-  /* border: solid red; */
   margin: 0 auto;
   max-width: 980px;
   margin-bottom: 50px;
+`;
+
+export const BtnModal = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 255, 0.808);
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 `;
